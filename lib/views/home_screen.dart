@@ -71,13 +71,13 @@ class _HomeScreenState extends State<HomeScreen>with TickerProviderStateMixin {
           children: [
             PopularView(),
             Container(
-              color: Colors.blue,
-            ),
-            Container(
               color: Colors.red,
             ),
             Container(
-              color: Colors.orange,
+              color: Colors.yellow,
+            ),
+            Container(
+              color: Colors.pink,
             ),
           ],
         )

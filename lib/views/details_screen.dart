@@ -62,7 +62,7 @@ class DetailsScreen extends StatelessWidget {
 
   _header() {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16),
+      padding: const EdgeInsets.symmetric(horizontal: 12),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -79,16 +79,17 @@ class DetailsScreen extends StatelessWidget {
           Column(
             children: [
               const SizedBox(
-                width: 249,
-                child: Text("RAYA và rồng thần cuối cùng",
+                width: 220,
+                child: Text("RAYA và rồng \nthần cuối \ncùng",
                   style: TextStyle(fontFamily: "Comfortaa",
                     fontSize: 24,
+                     overflow: TextOverflow.fade,
                     fontWeight: FontWeight.w700,
                     color: Colors.black,),),
               ),
               const SizedBox(height: 21,),
               SizedBox(
-                width: 249,
+                width: 220,
                 child: Row(
                   children: const [
                     Text("Xuất bản:",
@@ -107,7 +108,7 @@ class DetailsScreen extends StatelessWidget {
               ),
               const SizedBox(height: 21,),
               SizedBox(
-                width: 249,
+                width: 220,
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: const [
@@ -117,11 +118,12 @@ class DetailsScreen extends StatelessWidget {
                         fontWeight: FontWeight.w700,
                         color: Colors.black,),),
                     SizedBox(width: 5,),
-                    SizedBox(
-                      width: 178,
-                      height: 60,
+                 
+                 SizedBox(
+                      width: 148,
+                      height: 70,
                       child: Text(
-                        "Phim Hoạt Hình, Phim Phiêu Lưu, Phim Giả Tượng, Phim Gia Đình, Phim Hành Động",
+                        "Phim Hoạt Hình, Phim Phiêu Lưu,\n Phim Giả Tượng, Phim Gia Đình, \nPhim Hành Động",
                         style: TextStyle(fontFamily: "Comfortaa",
                           fontSize: 12,
                           fontWeight: FontWeight.w700,
